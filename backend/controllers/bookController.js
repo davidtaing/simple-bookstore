@@ -13,13 +13,13 @@ export const getBooks = (req, res) => {
 };
 
 export const addOrUpdateBook = (req, res) => {
-    return 0;
+    res.json("Add or Update Book");
 }
 
 export const getBookByIsbn = (req, res) => {
-    return 0;
+    res.json("Got a single book");
 }
 
 export const deleteBookByIsbn = (req, res) => {
-    return 0;
+    res.json("Deleted book");
 }
