@@ -9,7 +9,7 @@ const PORT = 3000;
 
 // mongo connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/simple-library', {
+mongoose.connect('mongodb://localhost/simple-bookstore', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
