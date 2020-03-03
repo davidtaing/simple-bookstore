@@ -26,5 +26,13 @@ export const getBookByIsbn = (req, res) => {
 };
 
 export const deleteBookByIsbn = (req, res) => {
-    res.json("Deleted book");
+    Book.findOneAndDelete({isbn: req.params.isbn}, (err, Book) => {
+        if (err) {
+            res.send(err);
+        }
+        res.json({
+            message: "Deleted the following book",
+            data: Book
+        });
+    })
 };
