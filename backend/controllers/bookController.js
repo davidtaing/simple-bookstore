@@ -4,7 +4,12 @@ import { BookSchema } from "../models/bookModel";
 const Book = mongoose.model('Book', BookSchema);
 
 export const getBooks = (req, res) => {
-    return 0;
+    Book.find({}, (err, Book) => {
+        if (err) {
+            res.send(err);
+        }
+        res.json(Book);
+    })
 };
 
 export const addOrUpdateBook = (req, res) => {

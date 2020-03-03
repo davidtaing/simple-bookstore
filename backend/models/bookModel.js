@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-const Schema = mongooose.Schema;
+const Schema = mongoose.Schema;
 
 export const BookSchema = new Schema({
     title: {

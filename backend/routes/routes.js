@@ -1,7 +1,14 @@
+import { 
+    getBooks, 
+    addOrUpdateBook, 
+    getBookByIsbn, 
+    deleteBookByIsbn
+} from "../controllers/bookController";
+
 const routes = (app) => {
     // Get all books
     app.route('/books')
-        .get((req, res) => {})
+        .get()
 
     app.route('/book')
         // Add or update book
