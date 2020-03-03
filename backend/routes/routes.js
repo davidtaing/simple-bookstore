@@ -14,7 +14,7 @@ const routes = (app) => {
         // Add or update book
         .post(addOrUpdateBook)
 
-    app.route('/book/:isbn')
+    app.route('/book/isbn/:isbn')
         // Get book by isbn
         .get(getBookByIsbn)
         // Delete book by isbn

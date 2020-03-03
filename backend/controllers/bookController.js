@@ -14,12 +14,17 @@ export const getBooks = (req, res) => {
 
 export const addOrUpdateBook = (req, res) => {
     res.json("Add or Update Book");
-}
+};
 
 export const getBookByIsbn = (req, res) => {
-    res.json("Got a single book");
-}
+    Book.findOne({isbn: req.params.isbn}, (err, Book) => {
+        if (err) {
+            res.send(err);
+        }
+        res.json(Book);
+    })
+};
 
 export const deleteBookByIsbn = (req, res) => {
     res.json("Deleted book");
-}
+};
