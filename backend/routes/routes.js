@@ -10,5 +10,5 @@ const routes = (app) => {
     app.route('/user/:_id')
         .get((req, res) => {})
 }
-
+ 
 export default routes;
