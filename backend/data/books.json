@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Atomic Habits",
+        "author": ["James Clear"],
+        "isbn": "1847941834",
+        "isbn13": "978-1847941831",
+        "price": 24.14,
+        "language": "English",
+        "imageUrl": "http://covers.openlibrary.org/b/isbn/1847941834-L.jpg",
+        "description": "People think when you want to change your life, you need to think big. But world-renowned habits expert James Clear has discovered another way. He knows that real change comes from the compound effect of hundreds of small decisions - doing two push-ups a day, waking up five minutes early, or holding a single short phone call.",
+    },
+    {
+        "title": "12 Rules for Life",
+        "author": ["Jordan B. Peterson"],
+        "isbn": "0141988517",
+        "isbn13": "978-0141988511",
+        "price": 14.00,
+        "language": "English",
+        "imageUrl": "http://covers.openlibrary.org/b/isbn/0141988517-L.jpg",
+        "description": "Acclaimed clinical psychologist Jordan Peterson has influenced the modern understanding of personality, and now he has become one of the world's most popular public thinkers, with his lectures on topics from the Bible to romantic relationships to mythology drawing tens of millions of viewers. In an era of unprecedented change and polarizing politics, his frank and refreshing message about the value of individual responsibility and ancient wisdom has resonated around the world."
+    },
+    {
+        "title": "Brief Answers to the Big Questions: the final book from Stephen Hawking",
+        "author": ["Stephen Hawking"],
+        "isbn": "1473695988",
+        "isbn13": "978-1473695986",
+        "price": 22.00,
+        "language": "English",
+        "imageUrl": "http://covers.openlibrary.org/b/isbn/1473695988-L.jpg",
+        "description": "Is there a God? \nHow did it all begin? \nCan we predict the future? \nWhat is inside a black hole? \nIs there other intelligent life in the universe? \nWill artificial intelligence outsmart us? \nHow do we shape the future? \nWill we survive on Earth? \nShould we colonise space? \nIs time travel possible?"
+    },
+    {
+        "title": "A Brief History of Time: From Big Bang To Black Holes",
+        "author": ["Stephen Hawking"],
+        "isbn": "1439503923",
+        "isbn13": "978-1439503928",
+        "price": 14.99,
+        "language": "English",
+        "imageUrl": "http://covers.openlibrary.org/b/isbn/1439503923-L.jpg",
+        "description": "Was there a beginning of time? Could time run backwards? Is the universe infinite or does it have boundaries? \n\nThese are just some of the questions considered in the internationally acclaimed masterpiece by the world renowned physicist - generally considered to have been one of the world's greatest thinkers. It begins by reviewing the great theories of the cosmos from Newton to Einstein, before delving into the secrets which still lie at the heart of space and time, from the Big Bang to black holes, via spiral galaxies and strong theory. To this day A Brief History of Time remains a staple of the scientific canon, and its succinct and clear language continues to introduce millions to the universe and its wonders. \n\nThis new edition includes recent updates from Stephen Hawking with his latest thoughts about the No Boundary Proposal and offers new information about dark energy, the information paradox, eternal inflation, the microwave background radiation observations, and the discovery of gravitational waves. \n\nIt was published in tandem with the app, Stephen Hawking's Pocket Universe."
+    },
+    {
+        "title": "Unlocking the Universe",
+        "author": ["Stephen Hawking", "Lucy Hawking"],
+        "isbn": "0241415322",
+        "isbn13": "978-0241415320",
+        "price": 29.99,
+        "language": "English",
+        "imageUrl": "http://covers.openlibrary.org/b/isbn/0241415322-L.jpg",
+        "description": "Have you ever wondered how the universe began? Or what it takes to put humans on the moon - or even on Mars? What would you do if you could travel through space and time?\n\nEmbark on the adventure of a lifetime in this beautiful collection of up-to-the-minute essays by the world's leading scientists including Professor Stephen Hawking himself, plus mind-blowing facts and out-of-this-world colour photographs.\n\nStephen and Lucy's series of children's books was a global hit. George's stories are punctuated with fascinating real-life facts and insights and for the first time, this incredible non-content has been collected into one bumper volume. With this breadth of incredible information, plus brand new content for 2019 from key scientific figures, Unlocking the Universe is the ultimate handbook for every young scientist."
+    }
+]
