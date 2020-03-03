@@ -8,17 +8,17 @@ import {
 const routes = (app) => {
     // Get all books
     app.route('/books')
-        .get()
+        .get(getBooks)
 
     app.route('/book')
         // Add or update book
-        .post((req, res) => {})
+        .post(addOrUpdateBook)
 
     app.route('/book/:isbn')
         // Get book by isbn
-        .get((req, res) => {})
+        .get((getBookByIsbn)
         // Delete book by isbn
-        .delete((req, res) => {})
+        .delete(deleteBookByIsbn)
 }
  
 export default routes;
