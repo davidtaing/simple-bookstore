@@ -7,7 +7,7 @@ export const BookSchema = new Schema({
         required: true,
     },
     author: {
-        type: String,
+        type: [String],
         required: true,
     },
     isbn: {
