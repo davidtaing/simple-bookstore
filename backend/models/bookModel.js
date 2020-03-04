@@ -29,5 +29,14 @@ export const BookSchema = new Schema({
     language: {
         type: String,
         required: true,
+    },
+    imageUrl: {
+        type: String,
+    },
+    dateAdded: {
+        type: Date,
+        default: Date.now
     }
 })
+
+export const getCoverPhoto = (isbn) => {return `http://covers.openlibrary.org/b/isbn/${this.isbn}-L.jpg`}
