@@ -1,6 +1,7 @@
 import { 
     getBooks, 
-    addOrUpdateBook, 
+    addBook, 
+    updateBook,
     getBookByIsbn, 
     deleteBookByIsbn
 } from "../controllers/bookController";
@@ -12,7 +13,8 @@ const routes = (app) => {
 
     app.route('/book')
         // Add or update book
-        .post(addOrUpdateBook)
+        .post(addBook)
+        .put(updateBook)
 
     app.route('/book/isbn/:isbn')
         // Get book by isbn

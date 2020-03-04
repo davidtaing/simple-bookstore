@@ -12,8 +12,12 @@ export const getBooks = (req, res) => {
     })
 };
 
-export const addOrUpdateBook = (req, res) => {
-    res.json("Add or Update Book");
+export const addBook = (req, res) => {
+    res.json("added book");
+};
+
+export const updateBook = (req, res) => {
+    res.json("updated book");
 };
 
 export const getBookByIsbn = (req, res) => {
